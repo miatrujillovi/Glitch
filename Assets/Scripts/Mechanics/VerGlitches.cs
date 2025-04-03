@@ -25,6 +25,7 @@ public class VerGlitches : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
+            Debug.Log("E was Clicked");
             Habilidad();
         }
     }
@@ -60,6 +61,7 @@ public class VerGlitches : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Glitcheable"))
         {
+            Debug.Log("Entro al trigger?");
             if (!objetosEnTrigger.Contains(collision.gameObject))
             {
                 objetosEnTrigger.Add(collision.gameObject);

@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 1215622646935306524}
   - component: {fileID: 8718001499599354049}
   - component: {fileID: 6943422931502478440}
+  - component: {fileID: 2543016102848670309}
   m_Layer: 7
   m_Name: SalvadorPlayer
   m_TagString: Jugador
@@ -149,7 +150,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &8718001499599354049
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -209,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 5
-  jumpForce: 5
+  jumpForce: 7
   groundDetector: {fileID: 8891419427159188788}
   groundLayer:
     serializedVersion: 2
@@ -218,6 +219,20 @@ MonoBehaviour:
   normalSprite: {fileID: 0}
   runSprite: {fileID: 0}
   jumpSprite: {fileID: 0}
+--- !u!114 &2543016102848670309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8738269968153119535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aebbafbabcf2cf4a82e599dd0bd22d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  marcaPrefab: {fileID: 8538632554736149244, guid: f54f113bd8b900b49b436ab6e6a0ef25, type: 3}
+  tiempoVisible: 1.2
 --- !u!1 &8891419427159188788
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +295,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

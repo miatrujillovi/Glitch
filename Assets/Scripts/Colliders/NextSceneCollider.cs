@@ -20,14 +20,14 @@ public class NextSceneCollider : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Jugador"))
         {
-            foreach (TransformTarget tt in transformTarget)
-            {
-                if (tt.objectToMove != null)
+                foreach (TransformTarget tt in transformTarget)
                 {
-                    tt.objectToMove.position = tt.newObjectPosition;
+                    if (tt.objectToMove != null)
+                    {
+                        tt.objectToMove.position = tt.newObjectPosition;
+                    }
                 }
-            }
-            actions.Invoke();
+                actions.Invoke();
         }
     }
 }

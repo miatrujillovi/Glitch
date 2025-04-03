@@ -35,10 +35,10 @@ public class MovimientoObjetos : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.N))
+        /*if (Input.GetKeyDown(KeyCode.N))
         {
             moverobjetos();
-        }
+        }*/
 
     }
 
