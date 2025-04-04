@@ -27,4 +27,29 @@ public class SceneManagament : MonoBehaviour
     {
         SceneManager.LoadScene("Puzzle3");
     }
+
+    public void Puzzle4()
+    {
+        SceneManager.LoadScene("Puzzle4");
+    }
+
+    public void Puzzle5()
+    { 
+        SceneManager.LoadScene("Puzzle5");
+    }
+
+    public void Puzzle6() 
+    {
+        SceneManager.LoadScene("Puzzle6");
+    }
+
+    public void Puzzle7()
+    {
+        SceneManager.LoadScene("Puzzle7");
+    }
+
+    public void Puzzle8()
+    {
+        SceneManager.LoadScene("Puzzle8");
+    }
 }
