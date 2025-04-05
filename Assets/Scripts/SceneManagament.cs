@@ -8,6 +8,11 @@ public class SceneManagament : MonoBehaviour
         Application.Quit();
     }
 
+    public void Chapter1_1()
+    {
+        SceneManager.LoadScene("Cap1.1");
+    }
+
     public void Chapter2_1()
     {
         SceneManager.LoadScene("Cap2.1");
@@ -51,5 +56,15 @@ public class SceneManagament : MonoBehaviour
     public void Puzzle8()
     {
         SceneManager.LoadScene("Puzzle8");
+    }
+
+    public void Epilogue()
+    {
+        SceneManager.LoadScene("Epilogue");
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Caps/MainMenu.unity
+    guid: 0f1ce361570e66d4d81e2ec8a7f2a4b2
+  - enabled: 1
     path: Assets/Scenes/Caps/Cap1.1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -29,6 +32,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Puzzles/Puzzle6.unity
     guid: 00975a8185e8da34ca22c110d2f0b439
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/Puzzle7.unity
+    guid: 8cde7c5412bba2f4da3f01129d5eb648
+  - enabled: 1
+    path: Assets/Scenes/Puzzles/Puzzle8.unity
+    guid: ff144f1de2d5a11468ec1937586a7be4
+  - enabled: 1
+    path: Assets/Scenes/Caps/Epilogue.unity
+    guid: fd62183db8bb49a4ca65bbf9f3062f3a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
