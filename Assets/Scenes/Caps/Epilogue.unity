@@ -476,8 +476,8 @@ MonoBehaviour:
   typingtime: 0.05
   cantidadCaracteres: 4
   Textos:
-  - "Salvador: \xBFQu\xE9 opinas, nombrePerro?"
-  - "Perro: \xA1Gauf!"
+  - "Salvador: \xBFQu\xE9 opinas, Guss?"
+  - "Guss: \xA1Gauf!"
   - "Salvador: Si, estoy de acuerdo, le faltan unas cuantas sombras\u2026"
   - 'Salvador: Jaja, si amigo, que bueno que estamos bien.'
 --- !u!82 &303588472

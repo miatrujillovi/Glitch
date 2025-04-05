@@ -902,6 +902,119 @@ Transform:
   - {fileID: 463041255}
   m_Father: {fileID: 1510293528}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &393859847
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2075352719977131651, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 11cdb617a28024746af92f7f8e5bc98c, type: 3}
+    - target: {fileID: 2394197009593895140, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_Name
+      value: ReiniciarEscena
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799378912537224221, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_Transition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3799378912537224221, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1493656218}
+    - target: {fileID: 3799378912537224221, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReiniciarEscenas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4366753628672837042, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f11578f9d39da444dbc4ce588df61d24, type: 3}
 --- !u!1 &429998986
 GameObject:
   m_ObjectHideFlags: 0
@@ -6026,6 +6139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1493656216}
   - component: {fileID: 1493656217}
+  - component: {fileID: 1493656218}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -6058,6 +6172,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bfcb653bc7cf1c48b74c825bb0ecac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1493656218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493656215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c46d54d9f5b7ac149976f2e138fa767c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1500547069
@@ -6519,9 +6645,9 @@ MonoBehaviour:
   typingtime: 0.05
   cantidadCaracteres: 4
   Textos:
-  - "Salvador: No no ven aqu\xED nombrePerro, ven aqu\xED\u2026"
+  - "Salvador: No no ven aqu\xED Guss, ven aqu\xED\u2026"
   - "Salvador: Te vas a mejorar \xBFSi?"
-  - "Perro: Gauf\u2026"
+  - "Guss: Gauf\u2026"
   - "Salvador: Aguanta por favor, no te puedo perder a ti tambi\xE9n\u2026"
 --- !u!82 &1599634563
 AudioSource:
@@ -7839,3 +7965,4 @@ SceneRoots:
   - {fileID: 1937810177}
   - {fileID: 1599634560}
   - {fileID: 1493656216}
+  - {fileID: 393859847}

@@ -7,6 +7,8 @@ TagManager:
   - NPC
   - Jugador
   - Palpitations
+  - Glitcheable
+  - PerroJugador
   layers:
   - Default
   - TransparentFX
