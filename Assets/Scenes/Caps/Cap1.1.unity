@@ -774,8 +774,8 @@ Transform:
   m_GameObject: {fileID: 729373375}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.83, y: -3.1194, z: -0.0030798637}
-  m_LocalScale: {x: 1.429, y: 2.753272, z: 1}
+  m_LocalPosition: {x: -2.48, y: -2.64, z: -0.0030798637}
+  m_LocalScale: {x: 1.6396875, y: 2.0156705, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1510060820}
@@ -932,17 +932,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.005812466, y: 0}
+  m_Offset: {x: -0.005812466, y: -0.15}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.8618182, y: 1.8618182}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.9880954, y: 1}
+  m_Size: {x: 1.38, y: 1.36}
   m_EdgeRadius: 0
 --- !u!212 &729373380
 SpriteRenderer:
@@ -988,7 +988,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 90a67e0380e01b349bf0f7086ffa4a1d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1181,7 +1181,7 @@ Transform:
   m_GameObject: {fileID: 838860748}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0.734, z: 0}
+  m_LocalPosition: {x: -0.02, y: 0.826, z: 0}
   m_LocalScale: {x: 0.17430922, y: 0.10021562, z: 0.33709}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1697,8 +1697,8 @@ Transform:
   m_GameObject: {fileID: 2063468400}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.7, y: -3.1194, z: -0.0030798637}
-  m_LocalScale: {x: 1.429, y: 2.753272, z: 1}
+  m_LocalPosition: {x: 2.66, y: -2.85, z: -0.0030798637}
+  m_LocalScale: {x: 1.695572, y: 2.2281244, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 838860749}
@@ -1858,17 +1858,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.005812466, y: 0}
+  m_Offset: {x: -0.005812466, y: -0.06}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.5753846, y: 1.5753846}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.9880954, y: 1}
+  m_Size: {x: 1.71, y: 1.24}
   m_EdgeRadius: 0
 --- !u!212 &2063468405
 SpriteRenderer:
@@ -1913,10 +1913,10 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: ebaf3bbb8c6df844e9358ef38d3918b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -2020,6 +2020,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 241473267937547392, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.87
+      objectReference: {fileID: 0}
     - target: {fileID: 2002699093039554185, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -2071,6 +2075,10 @@ PrefabInstance:
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893155180420095998, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -3502,12 +3502,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2777696164919357557, guid: 9904e3f8ad387594f8433d53bcd3f964, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.313191
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777696164919357557, guid: 9904e3f8ad387594f8433d53bcd3f964, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.565205
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777696164919357557, guid: 9904e3f8ad387594f8433d53bcd3f964, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.76
+      value: 2.72
       objectReference: {fileID: 0}
     - target: {fileID: 2777696164919357557, guid: 9904e3f8ad387594f8433d53bcd3f964, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.359505
+      value: -5.72
       objectReference: {fileID: 0}
     - target: {fileID: 2777696164919357557, guid: 9904e3f8ad387594f8433d53bcd3f964, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3622,6 +3630,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mariachi
       objectReference: {fileID: 0}
+    - target: {fileID: 9188559726571864490, guid: 9904e3f8ad387594f8433d53bcd3f964, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ebaf3bbb8c6df844e9358ef38d3918b5, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4757,6 +4769,10 @@ PrefabInstance:
     - target: {fileID: 8186629081634529993, guid: bd3e76d5c7f008948afdb83117fd51d4, type: 3}
       propertyPath: m_SortingOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8718001499599354049, guid: bd3e76d5c7f008948afdb83117fd51d4, type: 3}
+      propertyPath: m_Size.x
+      value: 1.55
       objectReference: {fileID: 0}
     - target: {fileID: 8738269968153119535, guid: bd3e76d5c7f008948afdb83117fd51d4, type: 3}
       propertyPath: m_Name
