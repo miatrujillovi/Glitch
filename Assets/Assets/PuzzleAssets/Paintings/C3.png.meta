@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5ec043549060c0f49a1c7e4d37867f59
+guid: f7463768b88637649a8bdc2671a2954b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6248398984033134801
-    second: BCLIGHT_0
+      213: -22777379820428541
+    second: C3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BCLIGHT_0
+      name: C3_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        y: 1
+        width: 511
+        height: 510
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1d8e43245c5c6b650800000000000000
-      internalID: 6248398984033134801
+      spriteID: 303a3eef7141faff0800000000000000
+      internalID: -22777379820428541
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BCLIGHT_0: 6248398984033134801
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

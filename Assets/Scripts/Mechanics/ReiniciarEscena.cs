@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class ReiniciarEscena : MonoBehaviour
 {
-
     private string actualScene;
 
     void Awake()
