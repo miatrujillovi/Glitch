@@ -790,17 +790,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2002699093039554185, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 3087b46d871f7de4ea7dcf0f9f858cb8, type: 2}
     - target: {fileID: 3013944965499762722, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_Name
       value: DogPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.6
+      value: 0.73
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.02
+      value: -2.22
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.z

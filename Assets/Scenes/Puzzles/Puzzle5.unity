@@ -1216,7 +1216,7 @@ MonoBehaviour:
   - objectToMove: {fileID: 1556437561}
     newObjectPosition: {x: 22.4, y: -5.498, z: 0}
   - objectToMove: {fileID: 1386221347}
-    newObjectPosition: {x: 22.7, y: -6.950221, z: 0}
+    newObjectPosition: {x: 22.7, y: -4.82, z: 0}
   actions:
     m_PersistentCalls:
       m_Calls: []
@@ -1714,11 +1714,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.4
+      value: -11.78
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.950221
+      value: -5.23
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.z

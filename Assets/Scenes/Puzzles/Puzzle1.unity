@@ -1357,17 +1357,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 241473267937547392, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
+      propertyPath: m_Size.x
+      value: 2.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 241473267937547392, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
+      propertyPath: m_Size.y
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 241473267937547392, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.93
+      objectReference: {fileID: 0}
     - target: {fileID: 3013944965499762722, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_Name
       value: DogPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2
+      value: -5.63
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4
+      value: -2.44
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1400,6 +1412,10 @@ PrefabInstance:
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3407113346420494741, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.54
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

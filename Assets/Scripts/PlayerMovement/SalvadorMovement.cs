@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -15,7 +16,10 @@ public class SalvadorMovement : MonoBehaviour
     [SerializeField] private Sprite runSprite;
     [SerializeField] private Sprite jumpSprite;
 
+    
+
     private Rigidbody2D playerRB;
+    private Animator animator;
     private bool isGrounded;
     private float groundRadius = 0.5f;
     private bool jumpPressed = false;
@@ -25,22 +29,28 @@ public class SalvadorMovement : MonoBehaviour
     private void Awake()
     {
         playerRB = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         //Sprite and Animation Renderers (?
     }
 
     private void Update()
     {
+
         if (playerDog)
         {
             if (Input.GetKeyDown(KeyCode.UpArrow)) jumpPressed = true;
             if (Input.GetKey(KeyCode.LeftArrow)) aPressed = true;
             if (Input.GetKey(KeyCode.RightArrow)) dPressed = true;
+            animator.SetBool("Run", aPressed || dPressed);
+            animator.SetBool("RunNor", aPressed || dPressed);
         }
         else
         {
             if (Input.GetKeyDown(KeyCode.W)) jumpPressed = true;
             if (Input.GetKey(KeyCode.A)) aPressed = true;
             if (Input.GetKey(KeyCode.D)) dPressed = true;
+            animator.SetBool("Correr", aPressed || dPressed);
+            animator.SetBool("Salto", !isGrounded);
         }
     }
 

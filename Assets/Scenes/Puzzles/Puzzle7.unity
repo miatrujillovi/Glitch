@@ -812,11 +812,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.17
+      value: -6.51
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.95
+      value: -2.23
       objectReference: {fileID: 0}
     - target: {fileID: 3380371312972034338, guid: 1c49004d5db5c05429dbd24b3ea4532d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3753,7 +3753,7 @@ MonoBehaviour:
   - objectToMove: {fileID: 1868069048}
     newObjectPosition: {x: 15.41, y: -2.56, z: 0}
   - objectToMove: {fileID: 455742193}
-    newObjectPosition: {x: 25.03, y: -4, z: 0}
+    newObjectPosition: {x: 25.03, y: -2.65, z: 0}
   actions:
     m_PersistentCalls:
       m_Calls: []
