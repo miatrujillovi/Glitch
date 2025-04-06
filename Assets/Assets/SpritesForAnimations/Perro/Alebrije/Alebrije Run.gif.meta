@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Alebrije Run_0: 9125510662988524923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
